@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640284931AF05E8900FAAE5A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640284921AF05E8900FAAE5A /* LocationManager.swift */; };
+		640EF89C1AD7754E00C3E992 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640EF89B1AD7754E00C3E992 /* Bolts.framework */; };
+		640EF89E1AD7756300C3E992 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640EF89D1AD7756300C3E992 /* Parse.framework */; };
+		640EF8A21ADB8C1700C3E992 /* clippers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 640EF8A11ADB8C1700C3E992 /* clippers.jpg */; };
+		641409B31ADC8E760081CF0D /* NYC_skyline_cover_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 641409B21ADC8E760081CF0D /* NYC_skyline_cover_2.jpg */; };
+		642350851AB74708008B6C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642350841AB74708008B6C65 /* AppDelegate.swift */; };
+		642350871AB74708008B6C65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642350861AB74708008B6C65 /* ViewController.swift */; };
+		6423508A1AB74708008B6C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642350881AB74708008B6C65 /* Main.storyboard */; };
+		6423508C1AB74708008B6C65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6423508B1AB74708008B6C65 /* Images.xcassets */; };
+		6423508F1AB74708008B6C65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6423508D1AB74708008B6C65 /* LaunchScreen.xib */; };
+		6423509B1AB74709008B6C65 /* BarbershopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6423509A1AB74709008B6C65 /* BarbershopTests.swift */; };
+		642350A51AB74756008B6C65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642350A41AB74756008B6C65 /* CoreLocation.framework */; };
+		642350A71AB74769008B6C65 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642350A61AB74769008B6C65 /* MapKit.framework */; };
+		642350A91AB74DDB008B6C65 /* canstock16453470.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 642350A81AB74DDB008B6C65 /* canstock16453470.jpg */; };
+		642350AC1AB75FEB008B6C65 /* customObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 642350AB1AB75FEB008B6C65 /* customObject.m */; };
+		643E78F11AD34BC900CF43D1 /* BarbersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643E78F01AD34BC900CF43D1 /* BarbersTableViewController.swift */; };
+		646CAFCF1AD6B0DB00FDBDFB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646CAFCE1AD6B0DB00FDBDFB /* LogInViewController.swift */; };
+		647286691ABA5D2600687C0A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647286681ABA5D2600687C0A /* CFNetwork.framework */; };
+		6472866B1ABA5D3B00687C0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6472866A1ABA5D3B00687C0A /* AudioToolbox.framework */; };
+		6472866D1ABA5D5100687C0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6472866C1ABA5D5100687C0A /* CoreGraphics.framework */; };
+		6472866F1ABA5DF900687C0A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6472866E1ABA5DF900687C0A /* MobileCoreServices.framework */; };
+		647286711ABA5E2300687C0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647286701ABA5E2300687C0A /* QuartzCore.framework */; };
+		647286731ABA5E8B00687C0A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647286721ABA5E8B00687C0A /* Security.framework */; };
+		647286751ABA5E9D00687C0A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647286741ABA5E9D00687C0A /* StoreKit.framework */; };
+		647286771ABA5EE600687C0A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647286761ABA5EE600687C0A /* SystemConfiguration.framework */; };
+		647286791ABA5F3A00687C0A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 647286781ABA5F3A00687C0A /* libz.dylib */; };
+		6472867B1ABA5F6400687C0A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6472867A1ABA5F6400687C0A /* libsqlite3.dylib */; };
+		64747BB91AD6DCFE00870579 /* shaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64747BB81AD6DCFE00870579 /* shaker.swift */; };
+		648B0BE11ADD13560026B1D7 /* Barberposter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648B0BE01ADD13560026B1D7 /* Barberposter.jpg */; };
+		648B0C1F1ADEACC10026B1D7 /* login.gif in Resources */ = {isa = PBXBuildFile; fileRef = 648B0C1E1ADEACC10026B1D7 /* login.gif */; };
+		648B0C251ADEBC8C0026B1D7 /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 648B0C241ADEBC8C0026B1D7 /* welcome.gif */; };
+		64AB63CE1ACA330E00EAD3A7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AB63CD1ACA330E00EAD3A7 /* AddressBook.framework */; };
+		64C9A6AA1AE1BB9F00ACD65D /* reviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9A6A91AE1BB9F00ACD65D /* reviewViewController.swift */; };
+		64CD30481AD4F4FE00646095 /* barberdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD30471AD4F4FE00646095 /* barberdetailViewController.swift */; };
+		64CD304A1AD5223E00646095 /* barbershop title.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64CD30491AD5223D00646095 /* barbershop title.001.jpg */; };
+		64CD304C1AD5994900646095 /* BarbershopGeoLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD304B1AD5994900646095 /* BarbershopGeoLoad.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		642350951AB74709008B6C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642350771AB74708008B6C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6423507E1AB74708008B6C65;
+			remoteInfo = Barbershop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		640284921AF05E8900FAAE5A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		640EF89B1AD7754E00C3E992 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		640EF89D1AD7756300C3E992 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		640EF8A11ADB8C1700C3E992 /* clippers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clippers.jpg; sourceTree = "<group>"; };
+		641409B21ADC8E760081CF0D /* NYC_skyline_cover_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NYC_skyline_cover_2.jpg; sourceTree = "<group>"; };
+		6423507F1AB74708008B6C65 /* Barbershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		642350831AB74708008B6C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642350841AB74708008B6C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		642350861AB74708008B6C65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		642350891AB74708008B6C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6423508B1AB74708008B6C65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6423508E1AB74708008B6C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		642350941AB74709008B6C65 /* BarbershopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbershopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		642350991AB74709008B6C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6423509A1AB74709008B6C65 /* BarbershopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbershopTests.swift; sourceTree = "<group>"; };
+		642350A41AB74756008B6C65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		642350A61AB74769008B6C65 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		642350A81AB74DDB008B6C65 /* canstock16453470.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canstock16453470.jpg; sourceTree = "<group>"; };
+		642350AA1AB75FEA008B6C65 /* Barbershop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barbershop-Bridging-Header.h"; sourceTree = "<group>"; };
+		642350AB1AB75FEB008B6C65 /* customObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customObject.m; sourceTree = "<group>"; };
+		643E78F01AD34BC900CF43D1 /* BarbersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarbersTableViewController.swift; sourceTree = "<group>"; };
+		646CAFCE1AD6B0DB00FDBDFB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		647286681ABA5D2600687C0A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6472866A1ABA5D3B00687C0A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6472866C1ABA5D5100687C0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6472866E1ABA5DF900687C0A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		647286701ABA5E2300687C0A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		647286721ABA5E8B00687C0A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		647286741ABA5E9D00687C0A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		647286761ABA5EE600687C0A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		647286781ABA5F3A00687C0A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6472867A1ABA5F6400687C0A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		64747BB81AD6DCFE00870579 /* shaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shaker.swift; sourceTree = "<group>"; };
+		648B0BE01ADD13560026B1D7 /* Barberposter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barberposter.jpg; sourceTree = "<group>"; };
+		648B0C1E1ADEACC10026B1D7 /* login.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = login.gif; sourceTree = "<group>"; };
+		648B0C241ADEBC8C0026B1D7 /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = welcome.gif; sourceTree = "<group>"; };
+		64AB63CD1ACA330E00EAD3A7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		64C9A6A91AE1BB9F00ACD65D /* reviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reviewViewController.swift; sourceTree = "<group>"; };
+		64CD30471AD4F4FE00646095 /* barberdetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = barberdetailViewController.swift; sourceTree = "<group>"; };
+		64CD30491AD5223D00646095 /* barbershop title.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbershop title.001.jpg"; sourceTree = "<group>"; };
+		64CD304B1AD5994900646095 /* BarbershopGeoLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarbershopGeoLoad.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6423507C1AB74708008B6C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AB63CE1ACA330E00EAD3A7 /* AddressBook.framework in Frameworks */,
+				6472867B1ABA5F6400687C0A /* libsqlite3.dylib in Frameworks */,
+				647286791ABA5F3A00687C0A /* libz.dylib in Frameworks */,
+				647286771ABA5EE600687C0A /* SystemConfiguration.framework in Frameworks */,
+				647286751ABA5E9D00687C0A /* StoreKit.framework in Frameworks */,
+				647286731ABA5E8B00687C0A /* Security.framework in Frameworks */,
+				640EF89E1AD7756300C3E992 /* Parse.framework in Frameworks */,
+				647286711ABA5E2300687C0A /* QuartzCore.framework in Frameworks */,
+				6472866F1ABA5DF900687C0A /* MobileCoreServices.framework in Frameworks */,
+				6472866D1ABA5D5100687C0A /* CoreGraphics.framework in Frameworks */,
+				6472866B1ABA5D3B00687C0A /* AudioToolbox.framework in Frameworks */,
+				647286691ABA5D2600687C0A /* CFNetwork.framework in Frameworks */,
+				642350A71AB74769008B6C65 /* MapKit.framework in Frameworks */,
+				642350A51AB74756008B6C65 /* CoreLocation.framework in Frameworks */,
+				640EF89C1AD7754E00C3E992 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642350911AB74709008B6C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642350761AB74708008B6C65 = {
+			isa = PBXGroup;
+			children = (
+				64AB63CD1ACA330E00EAD3A7 /* AddressBook.framework */,
+				6472867A1ABA5F6400687C0A /* libsqlite3.dylib */,
+				647286781ABA5F3A00687C0A /* libz.dylib */,
+				647286761ABA5EE600687C0A /* SystemConfiguration.framework */,
+				647286741ABA5E9D00687C0A /* StoreKit.framework */,
+				647286721ABA5E8B00687C0A /* Security.framework */,
+				647286701ABA5E2300687C0A /* QuartzCore.framework */,
+				6472866E1ABA5DF900687C0A /* MobileCoreServices.framework */,
+				6472866C1ABA5D5100687C0A /* CoreGraphics.framework */,
+				6472866A1ABA5D3B00687C0A /* AudioToolbox.framework */,
+				647286681ABA5D2600687C0A /* CFNetwork.framework */,
+				642350AB1AB75FEB008B6C65 /* customObject.m */,
+				640EF89D1AD7756300C3E992 /* Parse.framework */,
+				640EF89B1AD7754E00C3E992 /* Bolts.framework */,
+				642350A61AB74769008B6C65 /* MapKit.framework */,
+				642350A41AB74756008B6C65 /* CoreLocation.framework */,
+				642350811AB74708008B6C65 /* Barbershop */,
+				642350971AB74709008B6C65 /* BarbershopTests */,
+				642350801AB74708008B6C65 /* Products */,
+				642350AA1AB75FEA008B6C65 /* Barbershop-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		642350801AB74708008B6C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6423507F1AB74708008B6C65 /* Barbershop.app */,
+				642350941AB74709008B6C65 /* BarbershopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642350811AB74708008B6C65 /* Barbershop */ = {
+			isa = PBXGroup;
+			children = (
+				642350841AB74708008B6C65 /* AppDelegate.swift */,
+				64747BB81AD6DCFE00870579 /* shaker.swift */,
+				642350861AB74708008B6C65 /* ViewController.swift */,
+				640284921AF05E8900FAAE5A /* LocationManager.swift */,
+				642350881AB74708008B6C65 /* Main.storyboard */,
+				64C9A6A91AE1BB9F00ACD65D /* reviewViewController.swift */,
+				646CAFCE1AD6B0DB00FDBDFB /* LogInViewController.swift */,
+				64CD304B1AD5994900646095 /* BarbershopGeoLoad.swift */,
+				64CD30471AD4F4FE00646095 /* barberdetailViewController.swift */,
+				643E78F01AD34BC900CF43D1 /* BarbersTableViewController.swift */,
+				642350A81AB74DDB008B6C65 /* canstock16453470.jpg */,
+				6423508B1AB74708008B6C65 /* Images.xcassets */,
+				64CD30491AD5223D00646095 /* barbershop title.001.jpg */,
+				641409B21ADC8E760081CF0D /* NYC_skyline_cover_2.jpg */,
+				648B0C241ADEBC8C0026B1D7 /* welcome.gif */,
+				640EF8A11ADB8C1700C3E992 /* clippers.jpg */,
+				648B0BE01ADD13560026B1D7 /* Barberposter.jpg */,
+				648B0C1E1ADEACC10026B1D7 /* login.gif */,
+				6423508D1AB74708008B6C65 /* LaunchScreen.xib */,
+				642350821AB74708008B6C65 /* Supporting Files */,
+			);
+			path = Barbershop;
+			sourceTree = "<group>";
+		};
+		642350821AB74708008B6C65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				642350831AB74708008B6C65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		642350971AB74709008B6C65 /* BarbershopTests */ = {
+			isa = PBXGroup;
+			children = (
+				6423509A1AB74709008B6C65 /* BarbershopTests.swift */,
+				642350981AB74709008B6C65 /* Supporting Files */,
+			);
+			path = BarbershopTests;
+			sourceTree = "<group>";
+		};
+		642350981AB74709008B6C65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				642350991AB74709008B6C65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6423507E1AB74708008B6C65 /* Barbershop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6423509E1AB74709008B6C65 /* Build configuration list for PBXNativeTarget "Barbershop" */;
+			buildPhases = (
+				6423507B1AB74708008B6C65 /* Sources */,
+				6423507C1AB74708008B6C65 /* Frameworks */,
+				6423507D1AB74708008B6C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barbershop;
+			productName = Barbershop;
+			productReference = 6423507F1AB74708008B6C65 /* Barbershop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		642350931AB74709008B6C65 /* BarbershopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642350A11AB74709008B6C65 /* Build configuration list for PBXNativeTarget "BarbershopTests" */;
+			buildPhases = (
+				642350901AB74709008B6C65 /* Sources */,
+				642350911AB74709008B6C65 /* Frameworks */,
+				642350921AB74709008B6C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642350961AB74709008B6C65 /* PBXTargetDependency */,
+			);
+			name = BarbershopTests;
+			productName = BarbershopTests;
+			productReference = 642350941AB74709008B6C65 /* BarbershopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		642350771AB74708008B6C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "kevin campbell";
+				TargetAttributes = {
+					6423507E1AB74708008B6C65 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = T83G838486;
+					};
+					642350931AB74709008B6C65 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = T83G838486;
+						TestTargetID = 6423507E1AB74708008B6C65;
+					};
+				};
+			};
+			buildConfigurationList = 6423507A1AB74708008B6C65 /* Build configuration list for PBXProject "Barbershop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 642350761AB74708008B6C65;
+			productRefGroup = 642350801AB74708008B6C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6423507E1AB74708008B6C65 /* Barbershop */,
+				642350931AB74709008B6C65 /* BarbershopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6423507D1AB74708008B6C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648B0C251ADEBC8C0026B1D7 /* welcome.gif in Resources */,
+				648B0BE11ADD13560026B1D7 /* Barberposter.jpg in Resources */,
+				6423508A1AB74708008B6C65 /* Main.storyboard in Resources */,
+				640EF8A21ADB8C1700C3E992 /* clippers.jpg in Resources */,
+				64CD304A1AD5223E00646095 /* barbershop title.001.jpg in Resources */,
+				6423508F1AB74708008B6C65 /* LaunchScreen.xib in Resources */,
+				6423508C1AB74708008B6C65 /* Images.xcassets in Resources */,
+				641409B31ADC8E760081CF0D /* NYC_skyline_cover_2.jpg in Resources */,
+				648B0C1F1ADEACC10026B1D7 /* login.gif in Resources */,
+				642350A91AB74DDB008B6C65 /* canstock16453470.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642350921AB74709008B6C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6423507B1AB74708008B6C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CD30481AD4F4FE00646095 /* barberdetailViewController.swift in Sources */,
+				642350AC1AB75FEB008B6C65 /* customObject.m in Sources */,
+				640284931AF05E8900FAAE5A /* LocationManager.swift in Sources */,
+				642350871AB74708008B6C65 /* ViewController.swift in Sources */,
+				64C9A6AA1AE1BB9F00ACD65D /* reviewViewController.swift in Sources */,
+				646CAFCF1AD6B0DB00FDBDFB /* LogInViewController.swift in Sources */,
+				64CD304C1AD5994900646095 /* BarbershopGeoLoad.swift in Sources */,
+				64747BB91AD6DCFE00870579 /* shaker.swift in Sources */,
+				643E78F11AD34BC900CF43D1 /* BarbersTableViewController.swift in Sources */,
+				642350851AB74708008B6C65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642350901AB74709008B6C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6423509B1AB74709008B6C65 /* BarbershopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		642350961AB74709008B6C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6423507E1AB74708008B6C65 /* Barbershop */;
+			targetProxy = 642350951AB74709008B6C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		642350881AB74708008B6C65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				642350891AB74708008B6C65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6423508D1AB74708008B6C65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6423508E1AB74708008B6C65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6423509C1AB74709008B6C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6423509D1AB74709008B6C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6423509F1AB74709008B6C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Barbershop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Barbershop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		642350A01AB74709008B6C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Barbershop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Barbershop-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		642350A21AB74709008B6C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarbershopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barbershop.app/Barbershop";
+			};
+			name = Debug;
+		};
+		642350A31AB74709008B6C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarbershopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barbershop.app/Barbershop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6423507A1AB74708008B6C65 /* Build configuration list for PBXProject "Barbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6423509C1AB74709008B6C65 /* Debug */,
+				6423509D1AB74709008B6C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6423509E1AB74709008B6C65 /* Build configuration list for PBXNativeTarget "Barbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6423509F1AB74709008B6C65 /* Debug */,
+				642350A01AB74709008B6C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642350A11AB74709008B6C65 /* Build configuration list for PBXNativeTarget "BarbershopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642350A21AB74709008B6C65 /* Debug */,
+				642350A31AB74709008B6C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 642350771AB74708008B6C65 /* Project object */;
+}
