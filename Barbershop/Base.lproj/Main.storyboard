@@ -164,20 +164,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select the size of the search area in miles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2K-qo-2Lb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the size of the search area in miles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2K-qo-2Lb">
                                 <rect key="frame" x="120" y="341" width="329" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="329" id="2SC-9q-P2u"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7sA-YH-ZdU">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7sA-YH-ZdU">
                                 <rect key="frame" x="0.0" y="373" width="600" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="DUU-OR-2x6"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Fhf-HN-YPz"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="8iw-kQ-9zu"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-UR-vgn">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-UR-vgn">
                                 <rect key="frame" x="188" y="540" width="224" height="30"/>
                                 <state key="normal" title="Click to Find Barbers in this area">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -190,20 +196,24 @@
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YYW-eo-Yfq" firstAttribute="top" secondItem="sZs-pX-o3P" secondAttribute="bottom" id="0OD-m1-NtC"/>
+                            <constraint firstAttribute="centerX" secondItem="XVp-UR-vgn" secondAttribute="centerX" id="2e4-Xh-CVd"/>
                             <constraint firstItem="sZs-pX-o3P" firstAttribute="top" secondItem="uFD-QJ-Gir" secondAttribute="bottom" id="4f1-C4-F3B"/>
-                            <constraint firstAttribute="centerX" secondItem="l2K-qo-2Lb" secondAttribute="centerX" constant="15.5" id="ANq-kh-yhi"/>
                             <constraint firstItem="6nT-yI-O1i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="Iue-oK-0t9"/>
+                            <constraint firstItem="l2K-qo-2Lb" firstAttribute="top" secondItem="YYW-eo-Yfq" secondAttribute="bottom" constant="20" id="JaQ-j9-Bq8"/>
                             <constraint firstAttribute="centerX" secondItem="Vdc-l4-0vi" secondAttribute="centerX" constant="-0.5" id="Kyb-Ji-MAf"/>
+                            <constraint firstItem="7sA-YH-ZdU" firstAttribute="top" secondItem="l2K-qo-2Lb" secondAttribute="bottom" constant="11" id="SAe-hV-ne7"/>
                             <constraint firstItem="uFD-QJ-Gir" firstAttribute="top" secondItem="Vdc-l4-0vi" secondAttribute="bottom" id="bCu-qq-ttv"/>
                             <constraint firstAttribute="centerX" secondItem="GS9-aD-j7e" secondAttribute="centerX" constant="-0.5" id="cmg-Ce-3wK"/>
                             <constraint firstAttribute="centerX" secondItem="uFD-QJ-Gir" secondAttribute="centerX" constant="-0.5" id="d0y-5a-NC2"/>
-                            <constraint firstItem="l2K-qo-2Lb" firstAttribute="top" secondItem="YYW-eo-Yfq" secondAttribute="bottom" constant="20" id="hFi-M8-Tcc"/>
+                            <constraint firstAttribute="centerX" secondItem="l2K-qo-2Lb" secondAttribute="centerX" constant="15.5" id="htY-r4-wEQ"/>
                             <constraint firstItem="GS9-aD-j7e" firstAttribute="top" secondItem="6nT-yI-O1i" secondAttribute="bottom" constant="27" id="mT3-7i-AE1"/>
                             <constraint firstItem="6nT-yI-O1i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="mUz-O8-mqS"/>
                             <constraint firstItem="Vdc-l4-0vi" firstAttribute="top" secondItem="GS9-aD-j7e" secondAttribute="bottom" id="nmE-tO-isB"/>
                             <constraint firstAttribute="trailing" secondItem="6nT-yI-O1i" secondAttribute="trailing" id="olJ-1e-bsv"/>
                             <constraint firstAttribute="centerX" secondItem="YYW-eo-Yfq" secondAttribute="centerX" constant="-0.5" id="prJ-ud-fbu"/>
+                            <constraint firstAttribute="centerX" secondItem="7sA-YH-ZdU" secondAttribute="centerX" id="rIf-uD-eYb"/>
                             <constraint firstAttribute="centerX" secondItem="sZs-pX-o3P" secondAttribute="centerX" constant="-0.5" id="sOK-9S-Omw"/>
+                            <constraint firstItem="XVp-UR-vgn" firstAttribute="top" secondItem="7sA-YH-ZdU" secondAttribute="bottom" constant="5" id="xvo-I3-h9m"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Current Location" id="cuo-4L-nty" colorLabel="IBBuiltInLabel-Blue"/>
